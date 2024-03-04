@@ -7,19 +7,19 @@ int main()
     string status;
     
     cout << "Masukan Nilai MTK";
-    cin >> "nMTK";
-    cout << "nilai fisika"
-    cin >> "NFisika";
+    cin >> nMTK;
+    cout << "nilai fisika";
+    cin >> nFisika;
 
     nRerata = (nMTK + nFisika) / 2;
 
     if( nRerata > 60 || ( nMTK > 70 && nFisika >=0 )){
         cout << "Selamat, Anda lulus!" << endl;
         cout << "Rata-rata nilai: " << nRerata << endl;
-    }   } else {
+    }   else {
         cout << "Maaf, Anda tidak lulus." << endl;
     }
 
-    return 0;
 
-}
+ }
+
