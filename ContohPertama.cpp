@@ -14,5 +14,6 @@ int main(){
         nBilangan = nBilangan+1;
     }
     cout << "Nilainya adalah : " << nBilangan << endl;
+    return 0;
 }
     

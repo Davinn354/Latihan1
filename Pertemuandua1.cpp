@@ -20,6 +20,6 @@ int main()
         cout << "Maaf, Anda tidak lulus." << endl;
     }
 
-
+    return 0;
  }
 
